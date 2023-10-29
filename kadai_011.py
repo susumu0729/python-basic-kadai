@@ -4,10 +4,8 @@ for l in list1:
     print(l)
 
 
-count = 0
+i = 0
 
-while count < 9:
-    for l in list1:
-        print(l)
-        count = count + 1
-
+while i < 9:
+    print(list1[i])
+    i = i + 1
